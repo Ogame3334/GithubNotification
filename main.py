@@ -1,7 +1,7 @@
 import requests
 import os
 
-GITHUB_ACCESS_TOKEN = os.getenv("GITHUB_ACCESS_TOKEN")
+GITHUB_ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # GitHubの未読通知を取得する関数
